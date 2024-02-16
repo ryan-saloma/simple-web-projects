@@ -19,3 +19,15 @@ div {
     display: inline-block;
     margin: 10px;
 }
+
+label {
+    color: white;
+}
+
+#interval {
+    width: 50px;
+}
+
+div:nth-of-type(2) {
+    margin: 10px;
+}
