@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Christmas Lights</h1>
     <div>
+        <span class="light"></span>
         <span class="light"></span>
         <span class="light"></span>
         <span class="light"></span>
@@ -16,10 +16,12 @@
         <span class="light"></span>
         <span class="light"></span>
     </div>
+    <h1>Christmas Lights</h1>
     <div>
-        <label name="interval">Enter the interval: </label>
+        <button id="btn-start">Start</button>
+        <button id="btn-start">Stop</button>
+        <label name="interval">Interval (max 5s): </label>
         <input id="interval" name="interval" type="number" placeholder="1">
-        <button id="btn">Start</button>
     </div>
 </body>
 </html>
