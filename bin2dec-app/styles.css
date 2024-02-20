@@ -3,11 +3,18 @@ body {
     text-align: center;
 }
 
+h1 {
+    margin-top: 20px;
+}
+
 .btn btn-secondary {
     background-color: #6d6875;
 }
 
-.form-control {
-    text-align: center;
-    
+.input-group {
+    margin: 20px;
+}
+
+#convert-btn {
+    margin-right: 20px;
 }
