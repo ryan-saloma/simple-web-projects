@@ -1,3 +1,13 @@
 body {
-    background-color: slategrey;
+    background-color: #e5989b;
+    text-align: center;
+}
+
+.btn btn-secondary {
+    background-color: #6d6875;
+}
+
+.form-control {
+    text-align: center;
+    
 }
