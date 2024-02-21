@@ -13,27 +13,35 @@
         <form id="num-input" autocomplete="off">
             <div id="unit-selector">
                 <div id="unit-col">
-                    <label for="unit1">To</label>
+                    <label for="unit1" class="block-label">From</label>
                     <select id="unit1">
-                        <option value="Binary">Binary</option>
+                        <option value="Binary" selected>Binary</option>
                         <option value="Decimal">Decimal</option>
                         <option value="Hex">Hex</option>
                     </select>
                 </div>
                 <div id="unit-col">
-                    <label for="unit2">From</label>
+                    <label for="unit2" class="block-label">To</label>
                     <select id="unit2">
                         <option value="Binary">Binary</option>
-                        <option value="Decimal">Decimal</option>
+                        <option value="Decimal" selected>Decimal</option>
                         <option value="Hex">Hex</option>
                     </select>
                 </div>
             </div>
             <div id="input-group">
-                <label id="num-label" for="number">Enter binary number</label>
-                <div id="input-row">
-                    <input id="number" type="text">
+                <div class="input-row">
+                    <label for="input-number" class="block-label">Enter binary number</label>
+                    <input id="input-number" type="text">
                 </div>
+                <div class="input-row">
+                    <label for="output-number" class="block-label">Decimal number</label>
+                    <input id="output-number" type="text">
+                </div>
+            </div>
+            <div id="btn-group">
+                <button type="submit">Convert</button>
+                <button type="reset">Reset</button>
             </div>
         </form>
     </div>
