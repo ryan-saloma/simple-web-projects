@@ -45,3 +45,8 @@ Try not to view this until you've developed your own solution:
 -   [Binary to Decimal converter using React](https://github.com/geoffctn/Bin2Dec)
 -   [Matrix-like Binary to Decimal converter using Angular](https://github.com/ZangiefWins/MatrixBin2Dec)
     -   [Live preview on heroku](https://matrix-bin2dec.herokuapp.com/)
+ 
+## Things I learned
+
+1. If you use `select` (a dropdown menu), you can control the default option by adding the attribute `selected` to the option that you want to be the default.
+2. Binary can be converted to decimal easily in JS using `parseInt(str, base)`, where `str` is the binary string and `base` is the base of the numeral system. 
