@@ -49,4 +49,6 @@ Try not to view this until you've developed your own solution:
 ## Things I learned
 
 1. If you use `select` (a dropdown menu), you can control the default option by adding the attribute `selected` to the option that you want to be the default.
-2. Binary can be converted to decimal easily in JS using `parseInt(str, base)`, where `str` is the binary string and `base` is the base of the numeral system. 
+2. The easy way to convert any base to base-10 is to use `parseInt(str, radix)`, where `str` is the number string and `radix` is the base of `str`.
+3. The easy way to convert a base-10 integer to another base is to use `toString(radix)`.
+4. One way to align text in different rows is to define a `div` for columns. It's not clear that this is the best way. 

@@ -4,6 +4,7 @@ html {
 
 body {
     background-color: white;
+    text-align: left;
     margin: 0;
 }
 
@@ -20,8 +21,8 @@ h1 {
 
 #num-input {
     background-color: #f0eedc;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     border-radius: 10%;
     border: black solid 5px;
 }
@@ -35,6 +36,7 @@ h1 {
 #unit-col {
     font-size: 15px;
     margin-top: 10px;
+    width: 150px;
     display: inline-block;
 }
 
@@ -43,7 +45,8 @@ select {
 }
 
 #input-group {
-    justify-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
     align-content: center;
     display: flex;
 }
@@ -51,20 +54,29 @@ select {
 .block-label {
     font-size: 15px;
     margin-bottom: 0.5em;
-    padding-right: 15px;
     display: block;
 }
 
 .input-row {
-    margin: 10px;
+    margin-bottom: 10px;
     display: block;
 }
 
 #btn-group {
-    justify-content: center;
+    justify-content: space-evenly;
+    align-content: center;
     display: flex;
 }
 
+.btn-col {
+    align-content: left;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 150px;
+    display: inline-block;
+}
+
 button {
-    margin: 10px;
+    font-size: 15px;
+    width: 100px;
 }
