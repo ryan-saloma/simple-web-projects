@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: black 10px solid;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#flip-x img:hover {
+    transform: scaleX(-1);
+}
+
+#flip-y img:hover {
+    transform: scaleY(-1);
+}

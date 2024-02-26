@@ -33,3 +33,9 @@ Image packages and libraries are not allowed.
 ## Example projects
 
 [Image Effects by @bennettfeely](https://codepen.io/seyedi/pen/gvqYQv)
+
+## Modifications
+1. Include several different types of transformations, look at other sights for inspiration
+2. How to load images before page rendered?
+3. Is there a reason to wrap an image within a div?
+4. Way to set child's property to parents? (see div and img)
