@@ -39,3 +39,10 @@ Image packages and libraries are not allowed.
 2. How to load images before page rendered?
 3. Is there a reason to wrap an image within a div?
 4. Way to set child's property to parents? (see div and img)
+
+## Resources
+- Placeholder kitten photos: https://placekitten.com/
+- Placeholder bear photos: https://placebear.com/
+- Placeholder dog photos: https://place.dog/
+- Placeholder duck photos: https://random-d.uk/api
+- Placeholder fox photos: https://randomfox.ca/floof/
