@@ -43,6 +43,8 @@ Image packages and libraries are not allowed.
 ## Resources
 - Placeholder kitten photos: https://placekitten.com/
 - Placeholder bear photos: https://placebear.com/
+    - Not working for some reason
 - Placeholder dog photos: https://place.dog/
+    - Not working for some reason
 - Placeholder duck photos: https://random-d.uk/api
 - Placeholder fox photos: https://randomfox.ca/floof/

@@ -3,7 +3,8 @@ body {
     font-family: sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
 }
 
@@ -31,4 +32,8 @@ img {
 
 #flip-y img:hover {
     transform: scaleY(-1);
+}
+
+#bw img:hover {
+    filter: grayscale(100%);
 }
