@@ -2,11 +2,12 @@
 
 fetch("https://placekitten.com/500/500")
 .then((blob) => addImage(blob, "#flip-x"))
-.catch(() => {
-    const imageElement = document.createElement("img");
-    imageElement.src = "img/cat1.jpg";
-    const container = document.querySelector("#flip-x");
-    container.appendChild(imageElement);
+.catch((e) => {
+    // const imageElement = document.createElement("img");
+    // imageElement.src = "img/cat1.jpg";
+    // const container = document.querySelector("#flip-x");
+    // container.appendChild(imageElement);
+    console.log('error');
 });
 
 let addImage = function(blob, containerId) {
